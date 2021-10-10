@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 // Emergency Fix
+=======
+// test change
+>>>>>>> js-crud
 const cars = ["BMW", "Volvo", "Saab", "Ford", "Fiat", "Audi"];
 const colors = ["Red", "Green", "Blue"];
 

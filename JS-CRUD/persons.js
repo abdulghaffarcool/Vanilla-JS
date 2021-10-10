@@ -1,3 +1,4 @@
+// let and const introduced in ES6
 let persons = [{Name: "Ali", Address: "London", Salary: "1000"},
 {Name: "Brain", Address: "NewYork", Salary: "2000"}];
 
