@@ -1,0 +1,89 @@
+:root {
+    --blind: black;
+    --milk: #ffffff;
+    --misty: #f1f1f1;
+    --danger: red;
+    --glow: yellow;
+    --vitamin: orange;
+    --shine: cyan;
+    --light: lightblue;
+    --dark: darkblue;
+
+    --primaryfont: "Arial Black";
+    --secondaryfont: "Calibri";
+}
+
+body{
+    width: 70%;
+    margin: 0;
+    align-items: center;
+    font-family: var(--secondaryfont);
+}
+  h1 {
+    display: block;
+    font-size: 2em;
+    font-weight: bold;
+    font-family: var(--primaryfont);
+  }
+
+  h2 { border-bottom: 2px solid var(--dark); }
+  
+  .main {
+    color: var(--danger);
+    background-color: var(--milk);
+    padding: 15px;
+    width: 65%;
+    height: 100%;
+  }
+
+  .sidebar {
+    color: var(--blind);
+    background-color: var(--misty);
+    padding: 15px;
+    width: 35%;
+    height: 100%;
+  }
+
+  .flex-container {
+  display: flex;
+  background-color: DodgerBlue;
+}
+
+.flex-container > div {
+   margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
+
+  p {
+      /* border: 1px solid var(--dark); */
+  }
+
+  span {
+      background-color: var(--danger);
+      color: var(--white);
+  }
+
+   a {
+    background-color: var(--vitamin);
+    color: var(--milk);
+  }
+
+  a:hover {
+      color: var(--shine);
+  }
+
+  table {
+    background-color: var(--vitamin);
+    color: var(--milk);
+  }
+
+  tr {
+    background-color: var(--vitamin);
+    color: var(--milk);
+  }
+
+  td {
+    background-color: var(--vitamin);
+    color: var(--milk);
+  }

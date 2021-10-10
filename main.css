@@ -1,0 +1,25 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: cyan;
+    color: white;
+}
+
+header {
+    background-color: red;
+    color: white;
+}
+
+section {
+    background-color: green;
+    color: white;
+}
+
+section table {
+    background-color: red;
+    color: white;
+    border: 1px solid;
+}
+footer {
+    background-color: orange;
+    color: white;
+}

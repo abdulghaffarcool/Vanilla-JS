@@ -1,0 +1,119 @@
+:root {
+    --blind: black;
+    --milk: #ffffff;
+    --misty: grey;
+    --danger: red;
+    --glow: yellow;
+    --vitamin: orange;
+    --shine: cyan;
+    --light: lightblue;
+    --dark: darkblue;
+}
+  
+  body { background-color: var(--dark); }
+  
+  h2 { border-bottom: 2px solid var(--dark); }
+  
+  .container {
+    color: var(--dark);
+    background-color: var(--white);
+    padding: 15px;
+  }
+
+header {
+    border: 5px outset var(--danger);
+    background-color: var(--light);
+    text-align: center;
+  }
+
+  footer {
+    text-align: center;
+    padding: 3px;
+    background-color: var(--vitamin);
+    color: var(--white);
+  }
+
+  section {
+      background-color: var(--dark);
+  }
+
+  div {
+    border: 5px outset var(--danger);
+    background-color: var(--light);
+    text-align: center;
+  }
+
+  p {
+      border: 1px solid var(--dark);
+  }
+
+  span {
+      background-color: var(--danger);
+      color: var(--white);
+  }
+
+  h1 {
+    display: block;
+    font-size: 2em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+  }
+
+  a {
+    background-color: var(--vitamin);
+    color: var(--milk);
+  }
+
+  a:hover {
+      color: var(--shine);
+  }
+
+  table {
+    background-color: var(--vitamin);
+    color: var(--milk);
+  }
+
+  tr {
+    background-color: var(--vitamin);
+    color: var(--milk);
+  }
+
+  td {
+    background-color: var(--vitamin);
+    color: var(--milk);
+  }
+
+  form {
+    background-color: var(--vitamin);
+    color: var(--milk);
+  }
+
+  input {
+    background-color: var(--vitamin);
+    color: var(--milk);
+  }
+
+  button {
+    background-color: var(--milk);
+    color: var(--blue);
+    border: 1px solid var(--dark);
+    padding: 5px;
+  }
+
+  select{
+    background-color: var(--vitamin);
+    color: var(--milk);
+  }
+
+  label {
+    background-color: var(--vitamin);
+    color: var(--milk);
+  }
+
+  textarea {
+    background-color: var(--vitamin);
+    color: var(--milk);
+  }
