@@ -2,8 +2,18 @@
 Pure javascript concepts and practice projects
 
 ## Ecmascript 6 or ES6 or ES 2015
+Standardized javascript
 
-### 1. Var vs. let vs. const
+- ES6 Variables var vs. let vs. const
+- ES6 Classes
+- ES6 Arrow Functions
+- ES6 Array Methods
+- ES6 Destucturing
+- ES6 Spread Operator
+- ES6 Modules
+- ES6 Ternary Operator
+
+### 1. Variables var vs. let vs. const
 
 Before ES6 there were only one way of defining your variables: with the var keyword. If you did not define them, 
 they would be assigned to the global object. Unless you were in strict mode, then you would get an error if your 
