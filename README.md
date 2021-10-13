@@ -25,3 +25,48 @@ variables were undefined.
 
 **VERDICT: var has a function scope, not a block scope.
 let and const has a block scope. Use let and const instead of var.**
+
+### 2. Classes
+ES6 introduced classes.
+
+A class is a type of function, to initiate it, we use the keyword class, and the properties are assigned inside a constructor() method.
+
+- class keyword to create a class
+- extends keyword for inheritance
+- constructor() to initialize properties
+- super() to call parent class constructor
+
+class Car {
+
+  constructor(name) {
+  
+    this.brand = name;
+
+  }
+
+  present() {
+  
+    return 'I have a ' + this.brand;
+  
+  }
+}
+
+class Model extends Car {
+
+  constructor(name, mod) {
+  
+    super(name);
+    this.model = mod;
+    
+  } 
+  
+  show() {
+  
+      return this.present() + ', it is a ' + this.model
+      
+  }
+  
+}
+
+mycar = new Model("Ford", "Mustang");
+mycar.show();
